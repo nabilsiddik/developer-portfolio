@@ -1,0 +1,99 @@
+/** Reset **/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+body{
+    font-size: 16px;
+}
+
+
+/** Repeat class **/
+.primary-color{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+.btn{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/** Start Header **/
+#header{
+    background-color: #FFF8F3;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left center, right bottom;
+}
+#header .logo h2{
+    font-size: 45px;
+}
+#navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 230px;
+}
+#navigation .logo{
+    margin-top: 60px;
+}
+#navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+#navigation ul li a{
+    font-size: 20px;
+    color: #474747;
+}
+
+#hero_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 35px 0 235px
+}
+#hero_section .hero-content{
+    max-width: 585px;
+}
+#hero_section .subtitle{
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+#hero_section .title{
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+#hero_section .description{
+    font-size: 18px ;
+    margin-bottom: 30px;
+}
+#hero_section .btn.contact{
+    background: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
+/** End Header **/
